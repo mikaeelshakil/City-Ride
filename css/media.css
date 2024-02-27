@@ -1,0 +1,667 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*  header top*/
+    .nav_top{
+    text-align: center;
+}
+.topbar_left li:last-child {
+    margin: 10px 0 0 0 !important;
+}
+.topbar_left li:nth-child(2) {
+    margin: 0 !important;
+}
+.social_icon{
+    display: none;
+}
+/*header*/
+    header {
+    padding: 20px 0;
+}
+.logo h1 {
+    font-size: 26px;
+}
+  .menu ul li a{
+    font-size: 15px;
+    padding: 8px 0 !important;
+  }
+  .menu ul li:first-child a{
+    padding: 15px 0 8px 0 !important;
+  }
+  .menu ul li:last-child a{
+    padding: 8px 0 !important;
+  }
+/*  Slider Start*/
+.slider_title{
+    font-size: 25px;
+    line-height: 35px;
+}
+.slider_text{
+    font-size: 15px;
+   line-height: 30px;
+
+}
+.slider_button{
+    padding: 8px 25px;
+    font-size: 16px;
+}
+.slider_image{
+    margin-bottom: 30px;
+}
+.pad{
+    padding: 0 20px;
+}
+.pad2{
+    padding: 0 20px;
+}
+.prv, .nxt{
+    display: none;
+}
+.c_padd{
+    padding: 45px 0 45px 0;
+}
+/*About*/
+.about_text{
+    padding: 0 5px;
+/*    text-align: center;*/
+}
+.about_upper_title {
+    margin: 10px 0 45px 0;
+    font-size: 26px;
+    line-height: 38px;
+}
+.about_title {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 35px;
+}
+.about_li p{
+    font-size: 14px;
+}
+/*Services*/
+.service_upper_title {
+    font-size: 24px;
+    line-height: 35px;
+}
+.service_item {
+    margin-top: 50px;
+}
+.service_title {
+    font-size: 18px;
+}
+.btn_center{
+    text-align: center;
+}
+.service_text {
+    padding: 30px 20px;
+}
+/*Booking Start*/
+.booking_upper_title {
+    font-size: 22px;
+    line-height: 36px;
+}
+.booking_navtab {
+    margin-top: 40px;
+    font-size: 16px;
+}
+.booking_sitem {
+    margin-top: 40px;
+}
+.sitem_border2{
+    left: 130
+}
+/*Get App*/
+.get_button {
+        margin-right: 12px;
+    margin-top: 15px;
+    padding: 10px 25px;
+}
+.get_buttoni{
+    display: none;
+}
+/*Funfacts*/
+.fun_sitem {
+    margin-top: 35px;
+    width: 85%;
+    padding: 40px 30px;
+}
+.fun_count {
+    font-size: 40px;
+}
+.title {
+    font-size: 16px;
+}
+/*blog Start*/
+.blog_button {
+    padding: 5px 16px;
+    font-size: 13px;
+}
+.left_h2 {
+    font-size: 24px;
+    line-height: 38px;
+}
+.overlay {
+    height: 39.5%;
+}
+.right_top_left_h2 {
+    line-height: 30px;
+}
+.left_p {
+    margin-bottom: 30px !important;
+}
+.overlay_2 {
+    width: 100%;
+    height: 53%;
+    left: 0;
+}
+.overlay_3 {
+    width: 100%;
+    height: 53%;
+    left: 0;
+}
+/*footer*/
+footer {
+    padding: 20px 0 35px;
+}
+.footer_1h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.fb_left p {
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+}
+.fb_left {
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+.fb_right {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 15px;
+}
+.fbulli:not(:last-child) {
+    line-height: 30px;
+    margin-right: 10px;
+}
+.fbulli a {
+    font-size: 14px;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*  header top*/
+.nav_center{
+    justify-content: center !important;
+}
+.topbar_left li:last-child {
+    margin: 0 !important;
+}
+.topbar_right{
+    text-align: center;
+}
+.topbar_right li a{
+ font-size: 15px;
+}
+.social_icon{
+    display: none;
+}
+/*header*/
+    header {
+    padding: 20px 0;
+}
+.logo h1 {
+    font-size: 26px;
+}
+  .menu ul li a{
+    font-size: 16px;
+    padding: 8px 0 !important;
+  }
+  .menu ul li:first-child a{
+    padding: 20px 0 8px 0 !important;
+  }
+  .menu ul li:last-child a{
+    padding: 8px 0 !important;
+  }
+
+  /*  Slider Start*/
+.slider_title{
+    font-size: 30px;
+    line-height: 45px;
+}
+.slider_text{
+/*   margin: 20px 0 25px 0;*/
+   line-height: 30px;
+
+}
+.slider_button{
+    padding: 8px 25px;
+    font-size: 16px;
+}
+.slider_image{
+    margin-bottom: 30px;
+}
+.pad{
+    padding: 0 20px;
+}
+.pad2{
+    padding: 0 20px;
+}
+.prv, .nxt{
+    display: none;
+}
+.c_padd{
+    padding: 55px 0 55px 0;
+}
+/*About*/
+.about_text{
+    padding: 0 5px;
+/*    text-align: center;*/
+}
+.about_upper_title {
+    margin: 10px 0 45px 0;
+    font-size: 26px;
+    line-height: 38px;
+}
+.about_title {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 35px;
+}
+.about_li p{
+    font-size: 14px;
+}
+/*Services*/
+.service_upper_title {
+    font-size: 24px;
+    line-height: 35px;
+}
+.service_item {
+/*    margin: 0 50px;*/
+    margin-top: 50px;
+}
+.service_title {
+    font-size: 18px;
+}
+.btn_center{
+    text-align: center;
+}
+/*Booking Start*/
+.booking_upper_title {
+    font-size: 26px;
+    line-height: 38px;
+}
+.booking_navtab {
+    margin-top: 40px;
+    font-size: 16px;
+}
+.booking_sitem {
+    margin-top: 40px;
+}
+.sitem_border2{
+    left: 130px;
+}
+/*Get App*/
+.get_button {
+    padding: 8px 28px;
+}
+/*Funfacts*/
+.fun_sitem {
+    margin-top: 35px;
+    width: 85%;
+    padding: 40px 30px;
+}
+.fun_count {
+    font-size: 40px;
+}
+.title {
+    font-size: 16px;
+}
+/*blog Start*/
+.blog_left {
+    padding: 0 30px;
+}
+.blog_button {
+    padding: 5px 16px;
+    font-size: 13px;
+}
+.left_h2 {
+    font-size: 24px;
+    line-height: 38px;
+}
+.overlay {
+    height: 39.5%;
+}
+.right_top_left_h2 {
+    line-height: 30px;
+}
+.left_p {
+    margin-bottom: 30px !important;
+}
+.overlay_2 {
+    width: 100%;
+    height: 53%;
+    left: 0;
+}
+.overlay_3 {
+    width: 100%;
+    height: 53%;
+    left: 0;
+}
+/*footer*/
+footer {
+    padding: 20px 0 35px;
+}
+.footer_1h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.fb_left p {
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+}
+.fb_left {
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+.fb_right {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 15px;
+}
+.fbulli:not(:last-child) {
+    line-height: 30px;
+    margin-right: 10px;
+}
+.fbulli a {
+    font-size: 14px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*  header top*/
+.topbar_right li a{
+ font-size: 15px;
+}
+
+/*header*/
+header{
+    padding: 15px;
+}
+  .menu ul li a{
+  font-size: 16px;
+    padding: 8px 0 !important;
+  }
+  .menu ul li:first-child a{
+    padding: 20px 0 8px 0 !important;
+  }
+  .menu ul li:last-child a{
+    padding: 8px 0 !important;
+  }
+/*slider Start*/
+.slider_title{
+    font-size: 34px;
+    line-height: 50px;
+}
+
+
+.pad{
+    padding: 0 45px;
+}
+.pad2{
+    padding: 0 45px;
+}
+.c_padd{
+    padding: 70px 0 70px 0;
+}
+.prv, .nxt{
+    top: 250px;
+}
+/*About*/
+
+.about_upper_title {
+    margin: 10px 0 45px 0;
+    font-size: 36px;
+    line-height: 50px;
+}
+.about_title {
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 35px;
+}
+/*Services*/
+.service_upper_title {
+    font-size: 36px;
+    line-height: 50px;
+}
+.service_item {
+/*    margin: 0 50px;*/
+    margin-top: 50px;
+}
+.service_title {
+    font-size: 18px;
+}
+.service_text {
+    padding: 30px 20px;
+}
+/*Booking Start*/
+.booking_upper_title {
+    font-size: 30px;
+    line-height: 42px;
+}
+.booking_navtab {
+    margin-top: 50px;
+    font-size: 16px;
+}
+.booking_sitem {
+    margin-top: 50px;
+}
+.sitem_border2{
+    left: 110px;
+}
+/*Get App*/
+.get_button {
+    padding: 10px 30px;
+}
+/*fun facts*/
+.fun_sitem {
+    margin-top: 50px;
+}
+.fun_count {
+    font-size: 50px;
+}
+/*blogs*/
+.right_top_left_h2 {
+    font-size: 19px;
+    line-height: 30px;
+}
+.overlay {
+    height: 61.2%;
+}
+/*footer STart*/
+footer {
+    padding: 10px 0 50px;
+}
+.footer_1h1 {
+    margin-top: 30px;
+    font-size: 26px;
+}
+.fbulli:not(:last-child) {
+    margin-right: 10px;
+}
+
+.fbulli a {
+    font-size: 14px;
+
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /*slider Start*/
+.c_padd {
+    padding: 70px 0;
+}
+.slider_title{
+    font-size: 37px;
+    line-height: 50px;
+}
+
+.pad{
+    padding: 0 45px;
+}
+.pad2{
+    padding: 0 45px;
+}
+.prv, .nxt{
+    top: 250px;
+}
+/*About*/
+
+.about_upper_title {
+    margin: 10px 0 45px 0;
+    font-size: 38px;
+    line-height: 55px;
+}
+.about_title {
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 40px;
+}
+/*Services*/
+.service_upper_title {
+    font-size: 36px;
+    line-height: 50px;
+}
+.service_item {
+/*    margin: 0 50px;*/
+    margin-top: 50px;
+}
+.service_title {
+    font-size: 18px;
+}
+.service_text {
+    padding: 30px 20px;
+}
+/*Booking Start*/
+.booking_navtab {
+    margin-top: 60px;
+}
+.booking_sitem {
+    margin-top: 60px;
+}
+.booking_upper_title {
+    font-size: 32px;
+    line-height: 48px;
+}
+.sitem_border2 {
+
+    left: 92px;
+}
+/*Get App*/
+.get_button {
+    padding: 10px 30px;
+}
+/*fun facts*/
+.fun_sitem {
+    margin-top: 55px;
+    width: 90%;
+
+}
+.title {
+    font-size: 17px;
+}
+.fun_count {
+    font-size: 40px;
+    font-weight: 700;
+}
+/*blogs*/
+.right_top_left {
+    padding: 50px 0px 20px 25px;
+}
+.right_top_left_h2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+.right_bottom_left {
+    padding: 50px 0px 20px 25px;
+}
+.overlay {
+    height: 51.5%;
+}
+.overlay_2 {
+    width: 47.2%;
+    height: 82%;
+    left: 52.8%;
+}
+.overlay_3 {
+    width: 47.2%;
+    height: 82%;
+    left: 52.8%;
+}
+/*footer Start*/
+.footer_1h1 {
+    font-size: 26px;
+}
+footer {
+    padding: 50px 0 50px;
+}
+.location {
+    font-size: 15px;
+}
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*    slider*/
+.slider_title {
+/*    font-size: 48px;*/
+    line-height: 70px;
+}
+.prv, .nxt{
+    top: 300px;
+}
+/*Booking start*/
+.sitem_border2 {
+    left: 118px;
+}
+/*fun facts*/
+.c_padd {
+    padding: 80px 0 90px 0;
+}
+.fun_sitem {
+    width: 100%;
+}
+.fun_count {
+    font-size: 50px;
+}
+/*blogs*/
+.overlay {
+    height: 59.6%;
+}
+.overlay_2 {
+    height: 84%;
+}
+.overlay_3 {
+    height: 84%;
+}
+.right_top_left_h2 {
+    line-height: 30px;
+}
+/*footer start*/
+footer {
+    padding: 80px 0 50px;
+}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*    slider*/
+    .prv, .nxt{
+    top: 200px;
+}
+}
